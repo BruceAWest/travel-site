@@ -1,5 +1,5 @@
 var $ = require('jquery');
-var Person = require('./modules/Person');
+var Person = require('./modules/Persone');
 
 alert('ABC, it\'s as easy as 123');
 

@@ -68,7 +68,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(1);
-var Person = __webpack_require__(2);
+var Person = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./modules/Persone\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 alert('ABC, it\'s as easy as 123');
 
@@ -10337,21 +10337,6 @@ if ( !noGlobal ) {
 
 return jQuery;
 } );
-
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-function Person(fullName, favColor) {
-  this.name = fullName;
-  this.favoriteColor = favColor
-  this.greet = function() {
-    console.log("Hello, my name is " + this.name + " and my favorite color is " + this.favoriteColor + ".");
-  }
-}
-
-module.exports = Person;
 
 
 /***/ })

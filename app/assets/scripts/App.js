@@ -1,2 +1,3 @@
-console.log('Hello, my name is John Doe and my favorite color is blue.')
-console.log('Hello, my name is Jane Smith and my favorite color is green.')
+import MobileMenu from './modules/MobileMenu';
+
+var mobileMenu = new MobileMenu();
